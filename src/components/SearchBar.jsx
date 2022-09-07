@@ -1,7 +1,7 @@
 import React from 'react'
 
-const SearchBar = () => {
-
-}
+const SearchBar = () => (
+    <input type="text" placeholder='Buscar...' />
+)
 
 export default SearchBar
