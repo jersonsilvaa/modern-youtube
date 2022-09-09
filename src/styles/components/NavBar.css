@@ -1,45 +1,81 @@
-.navbar {
-    position: sticky;
-    top: 0;
-    display: flex;
-    align-items: center;
-    z-index: 1;
-    height: 6rem;
-    padding: 0 1rem;
-    transition: .4s;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
-    backdrop-filter: blur(20px);
-    background: rgba(0, 0, 0, 0.7);
-}
-
-.navbar_header {
+.navigation {
+    padding: 0 16px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    max-width: 23px;
-}
-
-img {
-    width: 50px;
-    height: 50px;
-}
-
-.navbar_menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+    height: 56px;
     position: fixed;
     top: 0;
     right: 0;
-    width: 0;
-    height: 100vh;
-    padding-top: 6rem;
-    background-color: rgba(0, 0, 0, 0.05);
-    overflow: auto;
-    pointer-events: none;
-    opacity: 0;
+    left: 0;
+    background-color: var(--nav-color);
+}
+
+.navigation__button {
+    border: none;
+    padding: 5px 10px;
+    background-color: transparent;
+    cursor: pointer;
+    line-height: 5px;
+}
+
+span {
+    color: #fff;
+}
+
+.navigation__menu,
+.navigation__search,
+.navigation__options {
+    display: flex;
+    align-items: center;
+}
+
+.navigation__options .navigation__button {
+    margin-right: 8px;
+}
+
+.navigation__menu__button svg {
+    height: 24px;
+}
+
+.navigation__search input {
+    width: 360px;
+    height: 32px;
+    border: 1px solid hsl(0, 0%, 18.82%);
+    font-size: 16px;
+    color: hsla(0, 100%, 100%, 0.88);
+    padding: 3px 8px;
+    outline: none;
+}
+
+.navigation__search__icon {
+    border: 1px solid hsl(0, 0%, 18.82%);
+    background-color: hsla(0, 0%, 100%, 0.08);
+    border-left: none;
+    height: 32px;
+    width: 65px;
+}
+
+.navigation__avatar img {
+    border-radius: 50%;
+    width: 35;
+    height: 35px;
+}
+
+.navigation__search__icon svg {
+    height: 20px;
+    width: 20px;
+}
+
+.navigation__options {
+    display: flex;
+}
+
+.navigation__icon {
+    width: 24px;
+    height: 24px;
+}
+
+.navigation__avatar {
+    width: 32px;
+    height: 32px;
 }
