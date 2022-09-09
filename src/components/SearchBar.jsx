@@ -1,7 +1,5 @@
 import React from 'react'
 
-import '../styles/components/SearchBar.css'
-
 const SearchBar = () => (
     <div className="navigation__search">
       <input type="search" placeholder="Buscar" onChange={() => {}} />
