@@ -19,7 +19,7 @@
     text-transform: capitalize;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: space-between;
     cursor: pointer;
     background: transparent;
     outline: none;
@@ -28,7 +28,14 @@
     margin: 10px 0px;
     border-radius: 20px;
     transition: all 0.3s ease;
+    font-size: 15px;
 }
+
+.button__category:hover {
+    background: red;
+}
+
+
 p {
     margin: 0;
     font-weight: 400;

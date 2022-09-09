@@ -1,0 +1,14 @@
+.container__feed {
+    display: flex;
+    align-items: center;
+}
+
+.title__videos {
+    color: white;
+    padding: 80px;
+    padding-left: 250px;
+    font-size: 3rem;
+    line-height: 1.235;
+    letter-spacing: 0.00735em;
+    font-weight: 700;
+}
