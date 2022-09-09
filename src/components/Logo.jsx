@@ -6,9 +6,10 @@ const logo = (props) => (
     style={{
       pointerEvents: "none",
       display: "block",
-      width: "20%",
-      height: "20%",
-      fill: "#fff"
+      width: "10rem",
+      height: "10rem",
+      fill: "#fff",
+      marginLeft: "10px"
     }}
     {...props}
   >
