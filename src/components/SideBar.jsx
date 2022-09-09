@@ -8,7 +8,7 @@ const SideBar = () => (
     <section className="sidebar__section">
         { categories.map((category) => (
             <button className='button__category'>
-                <span>{ category.icon }</span>
+                <span className='color__icon'>{ category.icon }</span>
                 <span>{ category.name }</span>
             </button>
         )) }
