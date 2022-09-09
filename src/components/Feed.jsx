@@ -1,7 +1,12 @@
 import React from 'react'
+import '../styles/components/Feed.css'
+
+import { Videos } from '../components/index'
 
 const Feed = () => (
-    <h1>Feed</h1>
+    <div className="container__feed">
+        <span className='title__videos'>Nuevos videos</span>
+    </div>
 )
 
 export default Feed
